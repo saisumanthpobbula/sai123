@@ -84,7 +84,7 @@ japan$mag_category <- cut(
 )
 
 
-# Boxplot for depth by magnitude categories
+
 ggplot(japan, aes(x = mag_category, y = depth)) +
   geom_boxplot(outlier.color = "red", fill = "lightblue") +
   labs(
